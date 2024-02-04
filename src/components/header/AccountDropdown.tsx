@@ -27,7 +27,7 @@ export function AccountDropdown() {
           align="end"
           sideOffset={40}
           className={clsx(
-            'h-42 inline-flex w-60 flex-col items-start justify-start gap-4',
+            'h-42 z-20 inline-flex w-60 flex-col items-start justify-start gap-4',
             'rounded-lg bg-neutral-900 bg-opacity-90 p-6 shadow backdrop-blur-2xl',
           )}
         >

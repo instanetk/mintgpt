@@ -48,7 +48,7 @@ function Menu() {
       </div>
 
       <div className="flex items-center justify-start gap-8">
-        {isMobileMenuOpen ? <NavbarMobile /> : <Navbar />}
+        {/* {isMobileMenuOpen ? <NavbarMobile /> : <Navbar />} */}
         <AccountConnect />
       </div>
     </>

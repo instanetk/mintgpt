@@ -7,7 +7,7 @@ type LayoutProps = {
 export default function Layout({ children }: LayoutProps) {
   return (
     <div className="flex h-[120px] justify-center pt-8">
-      <div className="container fixed z-10 h-[72px] px-8">
+      <div className="z-9 container fixed h-[72px] px-8">
         <div
           className={clsx(
             'flex flex-1 flex-grow items-center justify-between',
