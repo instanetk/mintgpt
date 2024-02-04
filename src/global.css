@@ -3,6 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --quick-nav-display: none;
   --component-highlights-item-width: calc(100vw - 100px);
@@ -40,6 +41,10 @@ html .font-robotoMono {
 
 html .font-inter {
   font-family: var(--font-inter);
+}
+
+html .font-cute {
+  font-family: var(--font-cute-font);
 }
 
 body {

@@ -6,7 +6,11 @@ export default function Home() {
   return (
     <ThreeCity>
       <Header />
-      <Layout>Hello</Layout>
+      <Layout>
+        <h1 className="font-inter text-center text-lg">
+          Seamlessly prompt and mint your NFT collections. It&apos;s time to truly own your art.
+        </h1>
+      </Layout>
     </ThreeCity>
   );
 }

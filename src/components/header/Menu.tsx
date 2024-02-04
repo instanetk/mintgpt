@@ -41,7 +41,7 @@ function Menu() {
         <NextLink
           href="/"
           passHref
-          className="font-robotoMono gap-0 pt-1 text-center text-lg font-medium text-white no-underline"
+          className="font-cute gap-0 pt-1 text-center text-4xl font-medium text-white no-underline"
         >
           {MenuTitle}
         </NextLink>
