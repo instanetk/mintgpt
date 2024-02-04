@@ -47,6 +47,10 @@ html .font-cute {
   font-family: var(--font-cute-font);
 }
 
+html .font-bebas {
+  font-family: var(--font-bebas-neue);
+}
+
 body {
   height: 100%;
   margin: 0;

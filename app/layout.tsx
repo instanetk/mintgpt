@@ -1,6 +1,6 @@
 import '../src/global.css';
 
-import { Roboto_Mono, Inter, Cute_Font } from 'next/font/google';
+import { Roboto_Mono, Inter, Cute_Font, Bebas_Neue } from 'next/font/google';
 import Footer from '../src/components/footer/Footer';
 import OnchainProviders from '../src/providers/OnchainProviders';
 import { initAnalytics } from '../src/utils/analytics';
@@ -25,6 +25,13 @@ const cute = Cute_Font({
   weight: '400',
 });
 
+const bebas = Bebas_Neue({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-bebas-neue',
+  weight: '400',
+});
+
 export const viewport = {
   width: 'device-width',
   initialScale: 1.0,
@@ -46,7 +53,10 @@ initAnalytics();
  */
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${roboto.variable} ${inter.variable} ${cute.variable}`}>
+    <html
+      lang="en"
+      className={`${roboto.variable} ${inter.variable} ${cute.variable} ${bebas.variable}`}
+    >
       <body className="flex flex-1 flex-col">
         <OnchainProviders>{children}</OnchainProviders>
         <Footer />

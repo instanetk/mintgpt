@@ -7,7 +7,7 @@ export default function Home() {
     <ThreeCity>
       <Header />
       <Layout>
-        <h1 className="font-inter text-center text-lg">
+        <h1 className="font-bebas text-3xl">
           Seamlessly prompt and mint your NFT collections. It&apos;s time to truly own your art.
         </h1>
       </Layout>
