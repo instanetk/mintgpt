@@ -4297,6 +4297,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/stats.js@npm:*":
+  version: 0.17.3
+  resolution: "@types/stats.js@npm:0.17.3"
+  checksum: ccccc992c6dfe08fb85049aa3ce44ca7e428db8da4a3edd20298f1c8b72768021fa8bacdfbe8e9735a7552ee5d57f667c6f557050ad2d9a87b699b3566a6177a
+  languageName: node
+  linkType: hard
+
+"@types/three@npm:^0":
+  version: 0.161.2
+  resolution: "@types/three@npm:0.161.2"
+  dependencies:
+    "@types/stats.js": "npm:*"
+    "@types/webxr": "npm:*"
+    fflate: "npm:~0.6.10"
+    meshoptimizer: "npm:~0.18.1"
+  checksum: b8f49ee5eff1ec137444753e8f65a0d51fe493f6efeb157c2a7a0049300482d1fafef63f1c5bcfabab7568be65b569a3676d6bc9d718bc69143ab93e9638d7cd
+  languageName: node
+  linkType: hard
+
 "@types/tough-cookie@npm:*":
   version: 4.0.5
   resolution: "@types/tough-cookie@npm:4.0.5"
@@ -4315,6 +4334,13 @@ __metadata:
   version: 3.0.2
   resolution: "@types/unist@npm:3.0.2"
   checksum: 39f220ce184a773c55c18a127062bfc4d0d30c987250cd59bab544d97be6cfec93717a49ef96e81f024b575718f798d4d329eb81c452fc57d6d051af8b043ebf
+  languageName: node
+  linkType: hard
+
+"@types/webxr@npm:*":
+  version: 0.5.13
+  resolution: "@types/webxr@npm:0.5.13"
+  checksum: bb7559f9c9efd4308fea359f82535ffa9af0109f35304644c2d5b6f2365b1b77f0d4dba8f518dcd88e775c3a39229d17eb42cdb007853a4d79a5ae9c496a9c25
   languageName: node
   linkType: hard
 
@@ -7925,6 +7951,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fflate@npm:~0.6.10":
+  version: 0.6.10
+  resolution: "fflate@npm:0.6.10"
+  checksum: c452f720e4cb404b300fceb8ef0bdf345f18fbfd3f57f7d0974dce5f5e2ac0e8dd4b6ff4bb7061ae74fd919b9c707172f9dbd44d91149b1137199b8c705768f1
+  languageName: node
+  linkType: hard
+
 "file-entry-cache@npm:^6.0.1":
   version: 6.0.1
   resolution: "file-entry-cache@npm:6.0.1"
@@ -8433,6 +8466,7 @@ __metadata:
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
+    "@types/three": "npm:^0"
     "@typescript-eslint/eslint-plugin": "npm:^5.54.1"
     "@typescript-eslint/parser": "npm:^5.54.1"
     "@typescript-eslint/type-utils": "npm:^5.54.1"
@@ -8459,6 +8493,7 @@ __metadata:
     eslint-plugin-react-perf: "npm:^3.3.1"
     eslint-plugin-relay: "npm:^1.8.3"
     eslint-plugin-simple-import-sort: "npm:^8.0.0"
+    gsap: "npm:^3.12.5"
     identity-obj-proxy: "npm:^3.0.0"
     jest: "npm:^29.7.0"
     jest-environment-jsdom: "npm:^29.7.0"
@@ -8487,6 +8522,7 @@ __metadata:
     stylelint-config-standard: "npm:^35.0.0"
     stylelint-order: "npm:^6.0.4"
     tailwindcss: "npm:^3.4.0"
+    three: "npm:^0.161.0"
     tls: "npm:^0.0.1"
     ts-jest: "npm:^29.1.1"
     typescript: "npm:~5.3.3"
@@ -8515,6 +8551,13 @@ __metadata:
   version: 15.8.0
   resolution: "graphql@npm:15.8.0"
   checksum: 30cc09b77170a9d1ed68e4c017ec8c5265f69501c96e4f34f8f6613f39a886c96dd9853eac925f212566ed651736334c8fe24ceae6c44e8d7625c95c3009a801
+  languageName: node
+  linkType: hard
+
+"gsap@npm:^3.12.5":
+  version: 3.12.5
+  resolution: "gsap@npm:3.12.5"
+  checksum: cb38e89bd577fc18c9cf77e4aeb83617603b1e0fa768fe8ca1acd836fd852936722e186a88c9cf6ece42e53407edd45324be2bfe35a41f424c5f2c2b33fd1a98
   languageName: node
   linkType: hard
 
@@ -10791,6 +10834,13 @@ __metadata:
   version: 1.4.1
   resolution: "merge2@npm:1.4.1"
   checksum: 254a8a4605b58f450308fc474c82ac9a094848081bf4c06778200207820e5193726dc563a0d2c16468810516a5c97d9d3ea0ca6585d23c58ccfff2403e8dbbeb
+  languageName: node
+  linkType: hard
+
+"meshoptimizer@npm:~0.18.1":
+  version: 0.18.1
+  resolution: "meshoptimizer@npm:0.18.1"
+  checksum: 8a825c58b20b65585e8d00788843929b60c66ba4297e89afaa49f7c51ab9a0f7b9130f90cc9ad1b9b48b3d1bee3beb1bc93608acba0d73e78995c3e6e5ca436b
   languageName: node
   linkType: hard
 
@@ -14106,6 +14156,13 @@ __metadata:
   dependencies:
     real-require: "npm:^0.1.0"
   checksum: f92f1b5a9f3f35a72c374e3fecbde6f14d69d5325ad9ce88930af6ed9c7c1ec814367716b712205fa4f06242ae5dd97321ae2c00b43586590ed4fa861f3c29ae
+  languageName: node
+  linkType: hard
+
+"three@npm:^0.161.0":
+  version: 0.161.0
+  resolution: "three@npm:0.161.0"
+  checksum: 0314e0b11c717042cc6cec983d6e2832ed416e4ab996b1340ff25335bbf71c529415856ae2de42952faeae284202368e7f1c6e3fd5a7c73d2b68108e5fb3c057
   languageName: node
   linkType: hard
 

@@ -21,7 +21,7 @@ export default function HomeHeader() {
         </h1>
         <p className={styles.HomeHeaderParagraph}>
           Accelerate your web3 creativity with the <br />
-          Build Onchain Apps Toolkit.
+          Build Onchain Apps Toolkit. Go!
         </p>
         <div className={styles.HomeHeaderCta}>
           <CodeBlock code={codeStep1} />

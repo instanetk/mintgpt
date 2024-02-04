@@ -1,6 +1,8 @@
 import { useCallback, useMemo, useState } from 'react';
 import { HamburgerMenuIcon } from '@radix-ui/react-icons';
+import Image from 'next/image';
 import NextLink from 'next/link';
+import logo from '../../../public/logo.svg';
 import { useMediaQuery } from '../../hooks/useMediaQuery';
 import AccountConnect from './AccountConnect';
 import Navbar from './Navbar';
@@ -15,14 +17,16 @@ function Menu() {
   }, [isMobileMenuOpen]);
 
   const MenuTitle = useMemo(() => {
-    return isSmallScreen ? 'BOAT' : 'BUILD ONCHAIN APPS';
+    return isSmallScreen ? 'MintGPT' : 'MintGPT';
   }, [isSmallScreen]);
 
   return (
     <>
-      <div className="flex h-8 items-center justify-start gap-4">
-        <NextLink href="/" passHref className="relative h-8 w-8">
-          <div className="absolute size-8 rounded-full bg-white" />
+      <div className="flex h-8 items-center justify-start gap-3">
+        <NextLink href="/" passHref className="relative h-12 w-12">
+          <div className="absolute size-12 rounded-full bg-transparent">
+            <Image src={logo} alt="MintGPT - Prompt. Mint. Repeat." />
+          </div>
         </NextLink>
         <div className="flex justify-start md:hidden">
           <button
@@ -37,7 +41,7 @@ function Menu() {
         <NextLink
           href="/"
           passHref
-          className="font-robotoMono text-center text-xl font-medium text-white no-underline"
+          className="font-robotoMono gap-0 pt-1 text-center text-lg font-medium text-white no-underline"
         >
           {MenuTitle}
         </NextLink>

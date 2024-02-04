@@ -2,6 +2,7 @@
 import Guide from '../../src/pageComponents/home/Guide';
 import HomeHeader from '../../src/pageComponents/home/HomeHeader';
 import WhyUseIt from '../../src/pageComponents/home/WhyUseIt';
+import Home from '../../src/pageComponents/mintgpt/Home';
 
 /**
  * Use the page component to wrap the components
@@ -10,11 +11,12 @@ import WhyUseIt from '../../src/pageComponents/home/WhyUseIt';
 export default function HomePage() {
   return (
     <>
-      <HomeHeader />
+      {/* <HomeHeader />
       <main className="container mx-auto flex flex-col px-8 py-28">
         <WhyUseIt />
         <Guide />
-      </main>
+      </main> */}
+      <Home />
     </>
   );
 }
